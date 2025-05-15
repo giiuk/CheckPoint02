@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sequência Misteriosa</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    input {
+        width: 60px;
+        margin-right: 5px;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 6px 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Enigma da Sequência Misteriosa</h2>
+
+  <label>Primeiro termo: <input type="number" id="n1" min="1"></label>
+  <label>Segundo termo: <input type="number" id="n2" min="1"></label>
+  <label>Terceiro termo: <input type="number" id="n3" min="1"></label>
+  <br><button onclick="analisarSequencia()">Descobrir padrão</button>
+
+  <h3>Resultado:</h3>
+  <p id="padrao"></p>
+  <p id="sequencia"></p>
+
+  <script src="enigma.js"></script>
+</body>
+</html>
