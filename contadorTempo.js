@@ -3,7 +3,7 @@ tempo = parseInt(tempo, 10);
 
 const span = document.getElementById('contador');
 const mensagem = document.getElementById('mensagem');
-const reiniciarBotao = document.getElementById('reiniciar');
+
 
 const intervalo = setInterval(() => {
   tempo++;
